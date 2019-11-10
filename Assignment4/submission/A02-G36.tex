@@ -105,26 +105,12 @@
 %\end{figure}
 %
 
-%\begin{figure}[H]
-%	\centering
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-%		\includegraphics[clip, trim=0cm 7cm 25cm 0cm, scale=0.5]{./images/bad3.png}
-%%		\caption{A subfigure}
-%		\label{fig:sub1}
-%	\end{subfigure}%
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-%		\includegraphics[clip, trim=-2cm 7cm 25cm 0cm, scale=0.50]{./images/bad1.png}
-%%		\caption{A subfigure}
-%		\label{fig:sub2}
-%	\end{subfigure}
-%	\caption{Paul Graham website}
-%	\label{fig:test}
-%\end{figure}
+
 \clearpage
 
 \section*{Task 2}
+
+
 
 \begin{tabularx}{\textwidth}{|X|}
 	\hline
@@ -132,24 +118,40 @@
 		\\
 	\hline
 		\textbf{Task:}
+		
+		User is requested to change the zoom of the video a zoom value other than the currently set one using the right-click menu of the VLC.
 		\\
 	\hline
 		\textbf{Mistake:}
 		
+		This is a `\textbf{Rule-based mistake}`, that is, the user evaluates the situation correctly but takes the wrong course of actions.
+		
 		\\
 		
 		\textbf{Cause:}
+		
+		Evaluation: the user oversees the "Always Fit Window" checkbox, and without modifying it, goes ahead to directly change the zoom ratio.
 		\\
 	\hline
 		\textbf{Redesign:}
 		
+		refer to the picture \ref{fig:sub2} below of this page for the redesign image
 		\\
+		
+		\bigskip
 		
 		\textbf{Explanation:}
 		
 			\begin{compactenum}[	a)]
 				\item How the redesign minimizes the implications of the mistake:
+				
+					all the zoom-related buttons and checkboxes are under the same menu
+					
+					\bigskip				
+					
 				\item How the redesign minimizes the chances of the mistake occurring in the future:
+				
+					the user, before clicking on a zoom ratio, would notice the "Always Fit Window" checkbox in the very same submenu, and would think that it is related to zooms, as it should be. Even though the user might fall for this the first time, just like we displayed in our user test, in the subsequent trials, the user can notice this checkbox being in the same submenu, and may decide to play with it too.
 			\end{compactenum}
 	\\
 	\hline
@@ -161,5 +163,23 @@
 	%	\hline
 	
 \end{tabularx}\\
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[clip, trim=0cm 0cm 0cm 0cm, scale=0.35]{./images/vlc_original.png}
+		\caption{Original}
+		\label{fig:sub1}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[clip, trim=0cm 0cm 0cm 0cm, scale=0.50]{./images/vlc_redesign.png}
+		\caption{Redesign}
+		\label{fig:sub2}
+	\end{subfigure}
+	\caption{Video Lan Client (VLC) Right-Click Menu}
+	\label{fig:test}
+\end{figure}
 
 \end{document}}
