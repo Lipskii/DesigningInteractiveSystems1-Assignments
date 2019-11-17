@@ -56,7 +56,7 @@ Apple Knowledge Navigator
 
 
 Sun Starfire:
-    5) video time: 00:14
+    5) video time: 00:14 POSITIVE
 
         Description: 
             Lady is starting video conference with other person.
@@ -76,3 +76,7 @@ Sun Starfire:
 			NO (this feature does NOT exist in current devices)
 
             In nowadays scanners we have to put a document in the right way (to have intended results). Then we have results in the computer. In video lady does not care where to locate document on the table. Despite this, she has the intended results. That is not present in current scaners. We have scanners exactly for a4, a3 documents for reason.
+	    
+	7) video time: 3:07 NEGATIVE/POSTIVIE from photo to 3D model  (scan of face -> games?)   
+	 
+	8) video time: 
